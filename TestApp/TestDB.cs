@@ -26,6 +26,7 @@ namespace TestApp
 
     public class UserEntity
     {
+        public int Id { get; set; }
         public string EmailId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; } 
