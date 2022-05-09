@@ -5,14 +5,14 @@ namespace TestApp.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<TestApp.TestDB>
+    internal sealed class Configuration : DbMigrationsConfiguration<TestApp.DAL.TestDB>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(TestApp.TestDB context)
+        protected override void Seed(TestApp.DAL.TestDB context)
         {
             //  This method will be called after migrating to the latest version.
 

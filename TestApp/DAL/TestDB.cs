@@ -3,13 +3,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Linq;
 
-namespace TestApp
+namespace TestApp.DAL
 {
     public class TestDB : DbContext
     {
         // Your context has been configured to use a 'TestDB' connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
-        // 'TestApp.TestDB' database on your LocalDb instance. 
+        // 'TestApp.DAL.TestDB' database on your LocalDb instance. 
         // 
         // If you wish to target a different database and/or database provider, modify the 'TestDB' 
         // connection string in the application configuration file.
